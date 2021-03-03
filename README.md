@@ -2,6 +2,8 @@
 
 1. Install the [LSP package](https://github.com/sublimelsp/LSP) for Sublime Text.
 
+2. Install the [Reach IDE package](https://github.com/chrisnevers/reach-ide-sublime) for Sublime Text.
+
 2. Download Reach language server and extract it. TODO
 
 3. In Sublime Text, go to the **Preferences** menu → **Package Settings** → **LSP** → **Settings**. This will open the LSP package settings.

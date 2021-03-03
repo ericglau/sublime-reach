@@ -4,7 +4,7 @@
 
 2. Install the [Reach IDE package](https://github.com/chrisnevers/reach-ide-sublime) for Sublime Text.
 
-2. Download Reach language server and extract it. TODO
+2. Download [Reach VS Code extension](https://marketplace.visualstudio.com/items?itemName=reachsh.reach-ide) as a .vsix file, and unzip it as a zip file.
 
 3. In Sublime Text, go to the **Preferences** menu → **Package Settings** → **LSP** → **Settings**. This will open the LSP package settings.
 

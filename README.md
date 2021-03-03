@@ -11,18 +11,24 @@
 4. In _LSP.sublime-settings — User_, add the configuration for the Reach language server:
 
 ```
+// Settings in here override those in "LSP/LSP.sublime-settings"
 {
   "clients": {
     "reach-language-server": {
       "enabled": true,
       "command": [
         "node",
-        "/Users/eric/git/reach-ls/extension/server/out/server.js",
+        "/Users/eric/git/reach-ide/server/out/server.js",
         "--stdio"
       ],
       "languageId": "Reach",
       "syntaxes": ["Packages/Reach IDE/Reach.sublime-syntax"],
-      "scopes": ["source.rsh"]
+      "scopes": ["source.rsh"],
+      "settings": {
+        "reachide": {
+          "executableLocation": "./reach"
+        }
+      }
     }
   },
   "log_debug": true,
@@ -30,5 +36,5 @@
 }
 ```
 
-   Change _/Users/eric/git/reach-ls/extension/server/out/server.js_ to the real location of the server.js file. It **must** be an absolute path.
+   Change _/Users/eric/git/reach-ide/server/out/server.js_ to the real location of the server.js file. It **must** be an absolute path.
 

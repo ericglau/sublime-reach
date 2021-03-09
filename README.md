@@ -1,4 +1,4 @@
-# sublime-reach
+# Sublime Reach
 
 1. Install the [LSP package](https://github.com/sublimelsp/LSP) for Sublime Text.
 

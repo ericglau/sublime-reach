@@ -2,6 +2,10 @@
 
 Language Support for [Reach](https://reach.sh/) in Sublime Text.  
 
+---
+
+## Installation
+
 1. Install the [LSP package](https://github.com/sublimelsp/LSP) for Sublime Text.
 
 2. Install the [Reach IDE package](https://github.com/chrisnevers/reach-ide-sublime) for Sublime Text.
@@ -36,3 +40,10 @@ Language Support for [Reach](https://reach.sh/) in Sublime Text.
 6. Change _/Users/eric/reach-ls-27d1fc1/out/server.js_ to the real location of the `out/server.js` file in the directory that you unzipped to in step 3. It **must** be an absolute path.  
 7. Restart Sublime.
 
+---
+
+## Usage
+
+- Compile errors: automatically highlighted
+- Quick Fix: hover over a compile error, click on Code Actions, and choose a suggested replacement
+- Hover Definitions: put cursor over any Reach statement

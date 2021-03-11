@@ -47,3 +47,5 @@ Language Support for [Reach](https://reach.sh/) in Sublime Text.
 - Compile errors: automatically highlighted
 - Quick Fix: hover over a compile error, click on Code Actions, and choose a suggested replacement
 - Hover Definitions: put cursor over any Reach statement
+
+![Screenshot](screenshot.png)

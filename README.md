@@ -10,7 +10,7 @@ Language Support for [Reach](https://reach.sh/) in Sublime Text.
 
 2. Install the [Reach IDE package](https://github.com/chrisnevers/reach-ide-sublime) for Sublime Text.
 
-3. Download the latest reach-ls-*.zip file from https://github.com/ericglau/reach-ls/releases and unzip it.
+3. Download the latest reach-ls-*.zip file from https://github.com/ericglau/reach-multi-editor/releases and unzip it.
 
 4. In Sublime Text, go to the **Preferences** menu → **Package Settings** → **LSP** → **Settings**. This will open the LSP package settings.
 
